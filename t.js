@@ -44,7 +44,7 @@ function getVersion(version) {
             return v.split('.');
         }), version, 0));
 }
-
+// select latest version by part of version
 getVersion('1.1'); // → 1.1.190
 getVersion('1.1.7'); // → 1.1.7
 getVersion('1.2'); // → 1.2.5
